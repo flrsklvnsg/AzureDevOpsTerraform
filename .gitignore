@@ -41,3 +41,7 @@ msbuild.wrn
 
 # Terraform
 .terraform
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
