@@ -18,7 +18,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: ubuntu-latest
+      vmImage: 'LAPTOP-QPQQ05MB'
     steps:
     - task: Docker@2
       inputs:
