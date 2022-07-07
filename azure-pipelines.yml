@@ -18,7 +18,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: 'LAPTOP-QPQQ05MB'
+      name: 'My Agents'
     steps:
     - task: Docker@2
       inputs:
