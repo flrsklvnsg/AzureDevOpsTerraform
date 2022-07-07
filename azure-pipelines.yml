@@ -25,7 +25,7 @@ stages:
         containerRegistry: 'flrsklvnsg Docker Hub'
         repository: 'flrsklvnsg/weatherapi'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'    
+        Dockerfile: '**/dockerfile'    
         tags: |
           $(tag)
  
