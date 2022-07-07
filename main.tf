@@ -52,6 +52,10 @@ resource "azurerm_container_group" "tfcg_test" {
         port     = 80
         protocol = "TCP"
         }
+        ports {
+        port     = 443
+        protocol = "TCP"
+        }
   }
 }
 
